@@ -1,0 +1,17 @@
+name: Greetings
+
+on:
+  issues:
+    types: [closed]
+  pull_request:
+    types: [closed]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: KamalDGRT/Greeting-action@rks
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: 'Thank you @${{github.actor}}! For taking out your time to raise an issue. This issue is closed now'
+        PR_message: 'Thank you @${{github.actor}} for taking out your time and contributing to our project.'
