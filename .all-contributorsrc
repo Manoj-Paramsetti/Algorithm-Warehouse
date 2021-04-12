@@ -14,6 +14,16 @@
         "mentoring",
         "ideas"
       ]
+    },
+    {
+      "login": "Manoj-Paramsetti",
+      "name": "Manoj Paramsetti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39455174?v=4",
+      "profile": "https://manoj-paramsetti.github.io/",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
