@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "docs",
+      "name": "GitHub Docs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51224762?v=4",
+      "profile": "https://docs.github.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Algorithm-Warehouse",
+  "projectOwner": "Manoj-Paramsetti",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
