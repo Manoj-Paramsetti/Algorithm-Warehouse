@@ -1,8 +1,7 @@
 name: 'Add Project Lead as Reviewer'
 on:
-  pull_request:
+  pull_request
     types: [opened, ready_for_review]
-  
 
 jobs:
   add-reviews:
@@ -10,4 +9,4 @@ jobs:
     steps:
       - uses: kentaro-m/auto-assign-action@v1.1.2
         with:
-          configuration-path: ".github/auto_assign_bot.yml" 
+          configuration-path: ".github/auto_assign_bot.yml"
