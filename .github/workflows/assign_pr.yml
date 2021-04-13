@@ -1,6 +1,6 @@
 name: 'Add Project Lead as Reviewer'
 on:
-  pull_request
+  pull_request:
     types: [opened, ready_for_review]
 
 jobs:
