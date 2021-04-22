@@ -112,8 +112,8 @@ For major changes, you are welcomed to open an issue about what you would like t
 
 <p align = "center">
 
-<a href="https://github.com/saimanoharhm"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Manoj-Paramsetti/Algorithm-Warehouse)
+<img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers">
+<a href="https://github.com/Manoj-Paramsetti/Algorithm-Warehouse)"><img src="https://forthebadge.com/images/badges/built-with-love.svg" ></a>
 
 </p>
 
