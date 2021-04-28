@@ -50,7 +50,7 @@ class singleLinkedList:
             if node.next is None:
                 return
             node = node.next
-            prev = node.next
+        prev = node.next
         node.next = Node(arg1)
         node = node.next
         node.next = prev       
@@ -58,10 +58,18 @@ class singleLinkedList:
     def delete(self, position: "Position to be deleted"):
         #[data|next] --> [data|next] --> [data|next] --> [data|next]
         #                        ^_______________^
-        node = self.headValue
-        for i in range(position-2):
-            node = node.next 
-        node.next = node.next.next
+        if position == 1:
+
+            node = self.headValue
+            self.headValue = node.next
+
+        else: 
+            node = self.headValue
+
+            for i in range(position-2):
+                node = node.next 
+
+            node.next = node.next.next
             
     def display(self):
 
@@ -78,6 +86,7 @@ class singleLinkedList:
 #creating object 
 list = singleLinkedList()
 
+print("Inserting the element at the last")
 list.insertLast(50, 60,70)
 list.display()
 
@@ -92,8 +101,9 @@ output:
 70
 '''
 
+print("Inserting 10,20,30 at the First")
 list.insertFirst(10,20,30)
-list.display()
+#list.display()
 
 '''
 It shows the entered things at first then remaining 
@@ -108,8 +118,9 @@ output:
 60
 70'''
 
-#print(list.insertMiddle.__annotations__)
-list.insertMiddle(40,4)
+print("Inserting 40 at secondd at the last")
+print(list.insertMiddle.__annotations__)
+list.insertMiddle(40,2)
 list.display()
 '''
 It shows the inserted element at nth position 
@@ -126,6 +137,7 @@ output:
 70
 '''
 
+print("Removing last element")
 list.delete(7)
 list.display()
 '''
