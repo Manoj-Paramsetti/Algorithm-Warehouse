@@ -59,16 +59,6 @@ class circularSingleLinkedList:
         node = node.next
         node.next = prev 
         
-        #node = self.headValue
-        #for i in range(1,arg2-1):
-        #    node = node.next
-        #    prev = node.next
-        #node.next = Node(arg1)
-        #node = node.next
-        #node.next = prev
-        #while node.next != self.headValue:
-        #    node = node.next
-        #node.next = self.headValue       
             
     def delete(self, position: "Position to be deleted"):
         #[data|next] --> [data|next] --> [data|next] --> [data|next]
