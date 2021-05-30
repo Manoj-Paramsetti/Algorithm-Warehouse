@@ -1,10 +1,11 @@
-program factorial
-integer :: a
-integer :: sum
-    Read *, a
+PROGRAM factorial
+INTEGER :: a
+INTEGER :: sum
+    READ *, a
     sum = 1
-    do n = 1, a
+    ! Do is somewhat similar to for loop
+    DO n = 1, a
         sum = sum * n
-    end do
-    print*, sum
-end program factorial
+    END DO
+    PRINT*, sum
+END PROGRAM factorial
